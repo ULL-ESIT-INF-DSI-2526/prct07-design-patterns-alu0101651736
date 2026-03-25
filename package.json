@@ -1,0 +1,39 @@
+{
+  "name": "prct07-design-patterns-alu0101651736",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BJNBiZ0d) [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23039252)",
+  "main": "index.js",
+  "scripts": {
+    "ejer1": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
+    "ejer2": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
+    "ejer3": "tsc-watch --onSuccess \"node dist/ejercicio-3.js\"",
+    "doc": "typedoc",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2526/prct06-generics-solid-alu0101651736.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2526/prct06-generics-solid-alu0101651736/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct06-generics-solid-alu0101651736#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitest/coverage-v8": "^4.0.18",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-tsdoc": "^0.5.2",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "tsc-watch": "^7.2.0",
+    "typedoc": "^0.28.17",
+    "typescript-eslint": "^8.57.0",
+    "vitest": "^4.0.18"
+  }
+}
