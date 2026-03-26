@@ -1,6 +1,9 @@
 {
-  "entryPoints": [
-    "src/*.ts"
-  ],
-  "out": "./docs"
+  "entryPoints": ["src/*.ts"],
+  "out": "docs",
+  "exclude": ["**/*.spec.ts", "**/test/**"],
+  "includeVersion": true,
+  "readme": "README.md",
+  "name": "Practica 7 Design patterns",
+  "entryPointStrategy": "expand"
 }
